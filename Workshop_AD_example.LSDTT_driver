@@ -12,12 +12,10 @@ read fname: WAWater
 
 # Parameters for various topographic analysis
 min_slope_for_fill: 0.0001
-pixel_threshold_for_channel_net: 200
 
 # Parameters for polyfit and slope calculations
 polyfit_window_radius: 19
 slope_method: polyfit
-
 
 # The different analyses to be run
 write hillshade: true
