@@ -1,0 +1,25 @@
+# This is a driver file for LSDTopoTools
+# Any lines with the # symbol in the first row will be ignored
+
+# File information
+# IMPORTANT: you will need to modify the file path to reflect your directory structure
+# NOTE: If you want to use a smaller test DEM use WA instead of WAWater
+dem read extension: bil
+dem write extension: bil
+read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
+write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
+read fname: WAWater
+
+# Parameters for various topographic analysis
+min_slope_for_fill: 0.0001
+pixel_threshold_for_channel_net: 200
+
+# Parameters for polyfit and slope calculations
+polyfit_window_radius: 19
+slope_method: polyfit
+
+
+# The different analyses to be run
+write hillshade: true
+write slope: true
+write curvature: true
