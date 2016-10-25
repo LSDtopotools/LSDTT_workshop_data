@@ -9,6 +9,7 @@ dem write extension: bil
 read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 read fname: WAWater
+write fname: WAWater
 
 # Parameters for various topographic analysis
 min_slope_for_fill: 0.0001

@@ -8,6 +8,7 @@
 read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 read fname: WAWater
+write fname: WAWater
 channel heads fname: NULL
 
 # Parameter for filling the DEM
