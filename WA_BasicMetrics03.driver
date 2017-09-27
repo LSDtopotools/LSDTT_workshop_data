@@ -8,9 +8,16 @@
 read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
 write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
 read fname: WA
-write fname: WA_FirstExample
+write fname: WA_ThirdExample
 channel heads fname: NULL
 
-# The data that you want printed to file
-write_hillshade: true
+# Parameters for surface metrics
+min_slope_for_fill: 0.0001
+print_dinf_drainage_area_raster: true
+print_MD_drainage_area_raster: true
+print_d8_drainage_area_raster: true
+print_distance_from_outlet: true
 
+// Basic channel network
+threshold_contributing_pixels: 1000
+print_channels_to_csv: true

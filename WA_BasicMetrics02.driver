@@ -8,9 +8,12 @@
 read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
 write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
 read fname: WA
-write fname: WA_FirstExample
+write fname: WA_SecondExample
 channel heads fname: NULL
 
-# The data that you want printed to file
-write_hillshade: true
-
+# Parameters for surface metrics
+surface_fitting_radius: 11
+print_slope: true
+print_aspect: true
+print_curvature: true
+print_tangential_curvature: true
