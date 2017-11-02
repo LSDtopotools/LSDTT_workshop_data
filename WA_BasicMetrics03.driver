@@ -1,23 +1,20 @@
 # Parameters for extracting simple surface metrics
 # Comments are preceeded by the hash symbol
-# Documentation can be found here: 
-# https://simon-m-mudd.github.io/QGIS_book/#_an_example_using_data_from_lsdtopotools
-
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist. 
-read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
-write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
+read path: /exports/csce/datastore/geos/users/smudd/analysis_for_papers/Test_basicmetrics/
+write path: /exports/csce/datastore/geos/users/smudd/analysis_for_papers/Test_basicmetrics/
 read fname: WA
 write fname: WA_ThirdExample
 channel heads fname: NULL
 
-# Parameters for surface metrics
+# Parameters for drainage area
 min_slope_for_fill: 0.0001
 print_dinf_drainage_area_raster: true
 print_MD_drainage_area_raster: true
 print_d8_drainage_area_raster: true
 print_distance_from_outlet: true
 
-// Basic channel network
-threshold_contributing_pixels: 1000
+# Basic channel network
+threshold_contributing_pixels: 5000
 print_channels_to_csv: true

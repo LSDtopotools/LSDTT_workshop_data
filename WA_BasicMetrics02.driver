@@ -5,8 +5,8 @@
 
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist. 
-read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
-write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data
+read path: /exports/csce/datastore/geos/users/smudd/analysis_for_papers/Test_basicmetrics/
+write path: /exports/csce/datastore/geos/users/smudd/analysis_for_papers/Test_basicmetrics/
 read fname: WA
 write fname: WA_SecondExample
 channel heads fname: NULL

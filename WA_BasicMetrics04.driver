@@ -1,0 +1,18 @@
+# These are parameters for the file i/o
+# IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist. 
+read path: /exports/csce/datastore/geos/users/smudd/analysis_for_papers/Test_basicmetrics/
+write path: /exports/csce/datastore/geos/users/smudd/analysis_for_papers/Test_basicmetrics/
+read fname: WA
+write fname: WA_FourthExample
+channel heads fname: NULL
+
+# Basic channel network
+threshold_contributing_pixels: 5000
+maximum_basin_size_pixels: 10e9
+print_channels_to_csv: true
+only_take_largest_basin: true
+
+find_basins: true
+print_basin_raster: true
+print_chi_data_maps: true
+
