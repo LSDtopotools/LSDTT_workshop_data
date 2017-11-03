@@ -7,23 +7,21 @@
 read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 read fname: WA
-write fname: WA_FourthExample
+write fname: WA_SixthExample
 channel heads fname: NULL
 
 # Basic channel network
 threshold_contributing_pixels: 5000
-print_junctions_to_csv: true
 
 # Convert to json
 convert_csv_to_geojson: true
 
 # Getting the basins
 find_basins: true
-minimum_basin_size_pixels: 10000
 maximum_basin_size_pixels: 100000000
-only_take_largest_basin: false
+only_take_largest_basin: true
 
 # Print the basin raster
-print_basin_raster: true
+print_chi_data_maps: true
 
 
