@@ -3,9 +3,6 @@
 # Documentation can be found at: https://lsdtopotools.github.io/LSDTT_documentation/LSDTT_basic_usage.html 
 
 # These are parameters for the file i/o
-# IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist. 
-read path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
-write path: /LSDTopoTools/Topographic_projects/LSDTT_workshop_data/
 read fname: WA
 write fname: WA_ThirdExample
 channel heads fname: NULL
